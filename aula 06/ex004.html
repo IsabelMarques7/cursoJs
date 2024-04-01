@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+    body{
+        font: normal 25pt arial;
+    }
+</style>
+<body>  
+
+    <script> 
+
+        //formatar string
+
+        var nome = window.prompt('qual o seu nome?')
+        document.write(`ola, <strong>${nome}</strong>! seu nome tem ${nome.length} letras<br/>`) 
+        document.write(`seu nome em letras maiusculas é ${nome.toUpperCase()}<br/>`)
+        document.write(`seu nome em letras minusculas é ${nome.toLowerCase()}<br/>`)
+        
+        // formatar numero (node)
+
+        // var n1 = 1546.5
+        // n1.toFixed(2).replace('.',',')
+        // n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+        // n1.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})
+        // n1.toLocaleString('pt-br', {style: 'currency', currency: 'EUR'})
+    </script>
+</body>
+</html> 
