@@ -40,6 +40,9 @@ function verificar() {
             }
         } 
 
+        img.style.display = 'block'; // Garante que a imagem seja exibida como bloco{}
+        img.style.margin = '0 auto'; // Margem automática nos lados horizontalmente
+
         res.innerHTML = `Detectamos ${genero} com ${idade} anos`;
         res.appendChild(img)
     }
